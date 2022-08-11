@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=PT+Sans&display=swap');
+
+:root {
+  ---fancy-font: 'Cinzel', serif;
+  --font: 'PT Sans', sans-serif;
+
+  --background-clr: moccasin;
+  --main-clr: sienna;
+  --secondary-clr: tan;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background-color: var(--background-clr);
+  color: var(--main-clr);
+}
+
+.intro {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: var(---fancy-font);
+}
+
+.image-section {
+  width: 100vw;
+  height: 40vh;
+  background-image: url(./my-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 30px 10px 0px;
+  background-color: var(--secondary-clr);
+  color: white;
+  border-radius: 5px;
+}
+
+.content {
+  margin: 10px;
+}
