@@ -1,2 +1,2 @@
-# digital-busines-card
+# digital-business-card
 This is a project created with React.js to build a personal business card.
